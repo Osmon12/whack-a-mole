@@ -1,0 +1,23 @@
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 618px;
+  height: 618px;
+}
+
+.mole {
+  background-image: url(./mole.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+.mole:hover {
+  border-color: rgb(255, 51, 0);
+  transform: scale(1.1);
+}
